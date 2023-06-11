@@ -1,0 +1,11 @@
+.homeScreen {
+    width:200px;
+    height:100px;
+    /*background-image:url('../images/Jammy-Jellyfish_WP_8192x4608.jpg');
+    background-size:cover;*/
+}
+
+.homeScreen > img {
+    width:100%;
+    height:100px;
+}

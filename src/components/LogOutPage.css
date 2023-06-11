@@ -1,0 +1,21 @@
+.logOutPage {
+    position:absolute;
+    width:100%;
+    height:100vh;
+    z-index:50;
+    overflow:hidden;
+    background-image:url('../images/ubuntuLogOutPage2.jpg');
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.logOutPage > .power:hover {
+    color:#ccccccab;
+}
+
+.logOutPage > img {
+    width:100%;
+    height:100%;
+}

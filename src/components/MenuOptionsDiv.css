@@ -1,0 +1,49 @@
+.menu__div {
+    position:absolute;
+    width:335px;
+    height:auto;
+    border:none;
+    display:flex;
+    align-self:flex-end;
+    margin-top:36px;
+    margin-right:6px;
+    border-radius:10px;
+    background-color:#fff;
+    align-items:center;
+    flex-direction:column;
+    padding:10px 0;
+}
+
+.menu__div > .input__field {
+    width:95%;
+    height:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius:6px;
+    padding:10px;
+}
+
+.menu__div > .input__field:hover {
+    background-color:rgb(221, 221, 221);
+}
+
+.menu__div > .input__field > .input__range {
+    width:85%;
+    height:20px;
+    outline:none;
+}
+
+.menu__div > .setting__options {
+    width:95%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    border-radius:6px;
+    padding:10px;
+    user-select:none;
+}
+
+.menu__div > .setting__options:hover {
+    background-color:rgb(221, 221, 221);
+}

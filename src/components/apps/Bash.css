@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+.bash {
+    position:absolute;
+    width:750px; /*600px*/
+    height:550px; /*400px*/
+    background-color:#2C001E;
+    border:1px solid black;
+    align-self:center;
+    margin-top:70px; /*150px*/
+    z-index:15;
+    /*border-radius:10px;*/
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    -webkit-box-shadow: -2px 0px 15px 1px #111111; 
+    box-shadow: -2px 0px 15px 1px #111111;
+}
+
+.bash > .bashBtns {
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: #202020;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.cont {
+    position: relative;
+    display: block;
+}
+  
+.cont::before {
+    content: 'lucas@lucas:~$';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 99;
+    font-size: 14px;
+    font-weight: bold;
+    color:green;
+    font-family:'Ubuntu', sans-serif;
+    font-size:15px;
+}
+
+  
+.bash > .cont > .bash__text {
+    width:100%;
+    height:auto;
+    min-height:300px;
+    outline:none;
+    font-family:'Ubuntu', sans-serif;
+    text-align:justify;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:none;
+    padding:3px 10px;
+    background-color:#2C001E;
+    color:#fff;
+    resize:none;
+    text-indent:110px;
+}

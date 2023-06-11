@@ -1,0 +1,62 @@
+.app__side {
+    position:relative;
+    width:80px;
+    height:100%; 
+    background-color:rgba(0, 0, 0, 0.363);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:10px;
+    z-index:25;
+    overflow:hidden;
+} 
+
+.app__side > .app__wrapper::-webkit-scrollbar {
+    display:none;
+}
+
+.app__side > .app__wrapper { /* Hide scroll bar in Firefox */
+    scrollbar-width:none;
+}
+
+.app__side > .app__wrapper { /* Hide scroll bar in IE and Edge */
+    -ms-overflow-style: none;
+}
+
+.app__side > .app__wrapper {
+    width:90%;
+    height:85%;
+    overflow:scroll;
+}
+
+.app__side > .app__wrapper > .app__div {
+    width:100%; /*90%*/
+    height:70px;
+    margin:1px 0;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.app__side > .app__wrapper >  .app__div:hover {
+    background-color:rgba(182, 167, 167, 0.603);
+}
+
+.app__side > .app__wrapper >  .app__div > img {
+    width:50px;
+    height:50px;
+}
+
+.divisory {
+    width:70%;
+    border:1px solid rgba(255, 255, 255, 0.479);
+}
+
+.menu__btn:hover {
+    background-color:rgba(182, 167, 167, 0.603);
+}
+
+.active {
+    background-color:rgba(182, 167, 167, 0.603);
+}
